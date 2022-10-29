@@ -1,12 +1,15 @@
 # Twitter-Keyword-Search
 
-Twitter Developer kullanarak API aldık.
+-Twitter üzerinden veri çekebilmek için Twitter Developers üyesi olup Portal üzerinden API alınmalıdır.
 
-Ardından aldığımız API numarasını kullanarak python üzerinden @HAVELSANResmi keywordu ile atılan tweetleri çekerek csv dosyası oluşturduk.
+![Screenshot_20221029_122049](https://user-images.githubusercontent.com/94743848/198831274-18f0553d-e65a-4674-beb0-254d96716f22.png)
 
-Daha sonra csv dosyasını postgreSQL üzerinden uygun columnlar oluşturarak import ettik.
+-Alınan API değerleri config dosyasına girilir.
 
-Bu şekilde istenilen keywordu kullanarak twitter üzerinden postgreSQL'e veri çekebildik.
+![Screenshot_20221029_122946](https://user-images.githubusercontent.com/94743848/198831632-2348a714-8fa4-4be0-af6e-561735119a93.png)
 
+-Aratılacak keyword girildikten sonra program çalıştırılır.
+-Çalıştırılan program twitter üzerinden çektiği verileri .csv dosyasına çevirecektir.
+-İsteğe göre.csv dosyasını SQL veritabanına aktarılabilir.
 
-![TweeterVeriÇekmeDataTable](https://user-images.githubusercontent.com/92250713/198829826-07dad262-6883-4f7a-a168-6e2f0ead99b4.png)
+![SQL_Example](https://user-images.githubusercontent.com/94743848/198831289-0ce58715-8eff-4658-ae6d-93dbc5862c33.png)
